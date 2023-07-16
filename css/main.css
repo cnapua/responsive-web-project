@@ -296,7 +296,7 @@
   /* Features */
   
   .features {
-    background: url(..img/unplugged-retreat-features.jpg);
+    background: url(../img/unplugged-retreat-features.jpg);
     background-position: center;
     background-size: cover;
     display: flex;
@@ -321,6 +321,11 @@
   
   .features p {
     margin: 0;
+  }
+  
+  .features i {
+    font-size: 3.75em;
+      margin-bottom: 40px;
   }
   
   /* Reviews */
@@ -578,7 +583,7 @@
     }
   
     .features .features-item-description {
-      width: 50%;
+      width: 62%;
     }
   
     /* Reviews */
@@ -591,13 +596,14 @@
       width: 85%;
     }
 
+    .reviews article figure, 
+    .reviews article div {
+      width: 49%;
+    }
+
     .reviews h3 {
       width: 75%;
       margin: 0;
-    }
-
-    .reviews article div {
-      width: 49%;
     }
   
     /* Footer */
