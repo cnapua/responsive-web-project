@@ -149,6 +149,14 @@
     width: 90%;
     margin: 50px 0;
   }
+
+  img {
+    width: 100%;
+  }
+
+  figure {
+    margin: 0;
+  }
   
   /* -------------------- Base Header - Footer Styles -------------------- */
   
@@ -167,6 +175,10 @@
     margin: 0;
   }
   
+  header figure {
+    width: 60%;
+  }
+
   .header-divider {
     background: #3A3A3A;
     width: 100%;
@@ -232,6 +244,10 @@
   /* Hero Area */
   
   .hero-area {
+    background: url(../img/unplugged-retreat.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 500px;
     display: flex;
     justify-content: center;
   }
@@ -280,6 +296,9 @@
   /* Features */
   
   .features {
+    background: url(..img/unplugged-retreat-features.jpg);
+    background-position: center;
+    background-size: cover;
     display: flex;
     justify-content: center;
   }
@@ -553,6 +572,11 @@
   
     .reviews h2 {
       width: 85%;
+    }
+
+    .reviews h3 {
+      width: 75%;
+      margin: 0;
     }
 
     .reviews article div {
