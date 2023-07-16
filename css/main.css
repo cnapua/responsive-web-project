@@ -157,6 +157,7 @@
   figure {
     margin: 0;
   }
+
   
   /* -------------------- Base Header - Footer Styles -------------------- */
   
@@ -321,11 +322,13 @@
   
   .features p {
     margin: 0;
+    text-align: center;
   }
   
   .features i {
     font-size: 3.75em;
-      margin-bottom: 40px;
+    margin-bottom: 40px;
+    text-align: center;
   }
 
   /* Reviews */
