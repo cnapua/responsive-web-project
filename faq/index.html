@@ -16,8 +16,8 @@
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
 
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="../css/normalize.css">
+  <link rel="stylesheet" href="../css/main.css">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:500,700" rel="stylesheet">
@@ -31,13 +31,17 @@
 <body>
 
   <header>
-    <div>
-      <a href="#"><img src="" alt="unplugged logo"></a>
-      <div></div>
+    <div class="content-wrapper">
+      <figure>
+        <a href="../index.html">
+          <img src="../img/unpluggedlogo.png" alt="unplugged logo">
+        </a>
+      </figure>
+      <div class="header-divider"></div>
       <nav>
         <ul>
-          <li><a href="index.html" rel="noopener">FAQ</a></li>
-          <li><a href="../about/index.html" rel="noopener">About</a></li>
+          <li><a href="../faq/index.html">FAQ</a></li>
+          <li><a href="../about/index.html">About</a></li>
         </ul>
       </nav>
     </div>
@@ -69,12 +73,13 @@
   
   <footer>
     <div class="content-wrapper">
-      <div class="footer-contact">
+      <div class="footer-content">
         <div class="contact">
           <h4>Contact</h4>
           <address>
-            <p>555-555-5555 <br>
-            hello@unplugged.com
+            <p>
+              555-555-5555<br>
+              hello@unplugged.com
             </p>
           </address>
         </div>
@@ -82,15 +87,23 @@
           <h4>Social</h4>
           <div class="social-icons">
             <p>
-              <a href="#"></a>
+              <a href="https://www.facebook.com/Skillcrush/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            </p>
+            <p>
+              <a href="https://twitter.com/Skillcrush" target="_blank"><i class="fab fa-twitter"></i></a>
+            </p>
+            <p>
+              <a href="https://www.instagram.com/skillcrush/" target="_blank"><i class="fab fa-instagram"></i></a>
             </p>
           </div>
-        </div> 
-        </div>   
-        <div class="copyright">
-          <p>Copyright 2023 | Unplugged</p>
         </div>
-   </div>
+      </div>
+      <!-- footer content ends -->
+    </div>
+    <!--footer content-wrapper ends-->
+    <div class="copyright">
+      <p>Copyright 2023 | Unplugged</p>
+    </div>
   </footer>
 
 

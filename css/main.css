@@ -327,7 +327,7 @@
     font-size: 3.75em;
       margin-bottom: 40px;
   }
-  
+
   /* Reviews */
   
   .reviews {
@@ -633,6 +633,15 @@
 
     footer p {
       line-height: 1.285;
+    }
+
+    footer .social-icons {
+      width: 12.5em;
+      justify-content: space-between;
+    }
+
+    footer .copyright {
+      width: 100%;
     }
   
     /* ==========================================================================
