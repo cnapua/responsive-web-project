@@ -142,8 +142,12 @@
     line-height: 1.285;
   }
   
-  img {
-    width: 50%;
+  .header-img {
+    width: 100%;
+  }
+
+  .header-home {
+    width: 48%;
   }
   
   figure {
